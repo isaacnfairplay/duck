@@ -1,0 +1,14 @@
+[project]
+name = "duck"
+version = "0.1.0"
+description = "Duck project"
+authors = [{ name = "Duck Maintainers", email = "maintainers@example.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
