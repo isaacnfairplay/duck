@@ -5,6 +5,11 @@ description = "Duck project"
 authors = [{ name = "Duck Maintainers", email = "maintainers@example.com" }]
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+    "duckdb",
+    "keyring",
+    "numpy",
+]
 classifiers = [
     "Programming Language :: Python",
 ]
